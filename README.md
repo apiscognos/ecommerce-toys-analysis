@@ -42,3 +42,37 @@ This dataset contains 200,000 records and 12 columns. It includes customer profi
 | Discount Applied | Boolean-like categorical (object) | Indicates whether a discount was applied. |
 | Days Since Last Purchase | Integer (int64) | Number of days since the customer's previous purchase. |
 | Satisfaction Level | Categorical (object) | Overall satisfaction reported for the customer or purchase. |
+
+### Column Groups
+
+**Customer Information**
+
+| Column |
+|--------|
+| Customer ID |
+| Gender |
+| Age |
+| City |
+
+**Membership Information**
+
+| Column |
+|--------|
+| Membership Type |
+
+**Purchase & Transaction Details**
+
+| Column |
+|--------|
+| Total Spend |
+| Cost |
+| Items Purchased |
+| Discount Applied |
+
+**Experience & Loyalty Indicators**
+
+| Column |
+|--------|
+| Average Rating |
+| Days Since Last Purchase |
+| Satisfaction Level |
