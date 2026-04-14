@@ -77,6 +77,7 @@ This dataset contains 200,000 records and 12 columns. It includes customer profi
 | Days Since Last Purchase |
 | Satisfaction Level |
 
+---
 Before analysis, the following validation steps were performed
 ### Initial Data Checks
 
