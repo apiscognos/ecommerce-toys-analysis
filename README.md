@@ -76,3 +76,18 @@ This dataset contains 200,000 records and 12 columns. It includes customer profi
 | Average Rating |
 | Days Since Last Purchase |
 | Satisfaction Level |
+
+Before analysis, the following validation steps were performed
+### Initial Data Checks
+
+- **Missing Values:** Empty and null fields were detected across multiple columns. All missing values were replaced with the label `Unknown` to preserve row integrity and avoid data loss during aggregation queries.
+
+- **Typographical Errors:** Inconsistent string formatting was identified in categorical columns (e.g., membership types, city names, satisfaction levels). These were standardized to ensure correct grouping and filtering behavior in both SQL and Power BI.
+
+- **Invalid Age Values:** Outlier values in the `Age` column were found, including negative numbers, zeros, and unrealistically low ages inconsistent with the customer profile. These were replaced with the column's mean age to maintain statistical representativeness without removing records.
+
+- **Special Characters:** Unexpected characters such as commas (`,`) and hash symbols (`#`) were found embedded in numeric and categorical fields, which could cause parsing errors and incorrect data type inference. These were removed during the cleaning process.
+
+- **Profit Column Engineering:** A new column `Profit` was derived as:
+
+$$Profit = Total\ Spend - Cost$$
