@@ -20,3 +20,25 @@ For readers interested in the technical implementation, the project follows a st
 
 - **Business Question Analysis:** Core business questions are addressed using SQL, focusing on aggregations, segmentation, and trend analysis.
 [SQL queries available here →](./YOUR-SQL-FOLDER/)
+
+## 2. Structure & Initial Data
+
+### Dataset Overview
+This dataset contains 200,000 records and 12 columns. It includes customer profile information, purchase details, membership data, and satisfaction-related variables for toy purchases.
+
+### Column Structure & Data Types
+
+| Column | Data Type | Description |
+|--------|-----------|-------------|
+| Customer ID | Integer (int64) | Unique identifier for each customer. |
+| Gender | Categorical (object) | Customer's gender. |
+| Age | Integer (int64) | Customer's age in years. |
+| City | Categorical (object) | City where the customer is located. |
+| Membership Type | Categorical (object) | Customer's membership level. |
+| Total Spend | Numeric (float64) | Total amount spent by the customer. |
+| Cost | Numeric (float64) | Cost associated with the purchase. |
+| Items Purchased | Categorical (object) | Name of the product purchased. |
+| Average Rating | Numeric (float64) | Average rating given to the product or experience. |
+| Discount Applied | Boolean-like categorical (object) | Indicates whether a discount was applied. |
+| Days Since Last Purchase | Integer (int64) | Number of days since the customer's previous purchase. |
+| Satisfaction Level | Categorical (object) | Overall satisfaction reported for the customer or purchase. |
