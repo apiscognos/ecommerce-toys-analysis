@@ -45,7 +45,7 @@ This dataset contains 200,000 records and 12 columns. It includes customer profi
 
 ### Column Groups
 
-**Customer Information**
+**Customer Information:**
 
 | Column |
 |--------|
@@ -54,13 +54,13 @@ This dataset contains 200,000 records and 12 columns. It includes customer profi
 | Age |
 | City |
 
-**Membership Information**
+**Membership Information:**
 
 | Column |
 |--------|
 | Membership Type |
 
-**Purchase & Transaction Details**
+**Purchase & Transaction Details:**
 
 | Column |
 |--------|
@@ -69,7 +69,7 @@ This dataset contains 200,000 records and 12 columns. It includes customer profi
 | Items Purchased |
 | Discount Applied |
 
-**Experience & Loyalty Indicators**
+**Experience & Loyalty Indicators:**
 
 | Column |
 |--------|
